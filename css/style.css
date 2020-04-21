@@ -115,19 +115,8 @@ header{
     height: 35rem !important;
     z-index: 999;
 }
-.cards .card-header{
-    height:35rem;
-}
-.cards .card-header img{
-    width: 100%;
-    height: 35rem !important;
-}
-.slider{
-  position: absolute;
-  top:0;
-  left:0;
-width:100%;
-z-index: 999;
+.first-section .col-md-5 img{
+    width:78%;
 }
 .carousel-indicators li{
     width: 20px;
@@ -138,11 +127,6 @@ z-index: 999;
     background-color: #6b2425;
 }
 
-
-.cards .card img{
-    width:100%;
-    height: 15rem;
-}
 /*full imge section*/
 .full-img{
 height:30rem;
