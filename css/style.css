@@ -79,7 +79,7 @@ header{
 }
 .bread_crumbs_list li{
     display: inline;
-    font-size: 2rem;
+    font-size:1.5rem;
 }
 .bread_crumbs_list li+li:before{
     padding:8px;
@@ -103,7 +103,7 @@ header{
 }
 .first-section .info p{
     padding: 1rem 2rem;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 .first-section .container{
     position: relative;
