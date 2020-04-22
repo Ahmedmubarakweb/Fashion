@@ -123,6 +123,7 @@ header{
 }
 .first-section .col-md-5 img{
     width:78%;
+    box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.5);
 }
 
 .carousel-indicators li{
@@ -380,6 +381,7 @@ padding:3rem 0;
 
 @media (max-width: 992px)
 {
+    
     .bread_crumbs_list li{
         display: inline;
         font-size: 1rem;
@@ -390,6 +392,13 @@ padding:3rem 0;
     .pills .pills_list li a{
         font-size:1rem;
     }
+    .first-section .slider-info {
+        margin-left: 20rem;
+    }
+    .first-section .info p {
+        font-size: 1.2rem;
+    }
+ 
     .first-section-shop .section-one .larg-img {
         height: 30rem;
     }
@@ -421,9 +430,9 @@ footer .links li{
 .full-img {
     height: 24rem;
 }
-.full-img p {
-    padding: 3rem 0rem 0rem;
-    font-size: 1.4rem;
+.full-img-p {
+    padding: 5rem 1rem 0rem;
+    font-size: 1.2rem;
 }
 }
 @media (max-width: 767px)
@@ -446,7 +455,7 @@ footer .links li{
         font-size: 1.1rem;
     } 
     .first-section .container{
-        height: 25rem;
+        height: auto;
     }
    
     .info{
@@ -458,13 +467,27 @@ footer .links li{
     .info p{
         font-size: 1rem;
     }
+    .first-section {
+        padding: 3rem 0 0;
+        }
+    .first-section .col-md-5{
+        left:-3rem;
+    }
     .first-section .col-md-5 img{
-        width: 50%;
+        width: 62%;
     }
     .first-section .info p {
         padding: 1rem 1rem;
         font-size: 1rem;
     }
+    .first-section .slider-info {
+        margin-left: 12rem;
+    }
+    .full-img-p {
+        padding: 0rem 1rem 0rem;
+        font-size: 1.2rem;
+    }
+
     .first-section-shop .section-one .small-img {
         top:60px;
         left:95px;
@@ -517,15 +540,8 @@ footer .links li{
     .nav-link{
         font-size: 1.2rem;
     }
-    .info{
-       top:-2rem;
-    }
     .info p{
         font-size:1rem;
-    }
-    .slider{
-     width: 17rem;
-     left:20%;
     }
     .full-img p{
         padding:7rem 2rem 1rem;
@@ -536,14 +552,29 @@ footer .links li{
         padding:.1rem .5rem;
         font-size: .9rem;
     } 
+    .first-section .col-md-5 img {
+        width:10rem;
+    }
+    .first-section .col-md-5 {
+        left: -27%;
+    }
+    .first-section .info p {
+        font-size:.9rem;
+    }
+    
 }
 @media (max-width: 400px){
-    .slider{
-        left:15%;
-       }
-       .info{
-        top:-5rem;
-     }
+    .first-section .info p {
+        font-size: .6rem;
+        padding:1rem 0;
+    }
+    .first-section .col-md-5 {
+        left: -23%;
+    }
+    .first-section .slider-info {
+        margin-left: 12rem;
+    }
+    
 }
 @media (max-width: 320px){
     .slider{
