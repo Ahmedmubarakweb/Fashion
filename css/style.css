@@ -447,13 +447,21 @@ footer .links li{
         height:17rem;
     }
     .full-img p{
-        padding:8rem 2rem 1rem;
+        padding:8rem 2rem .6rem;
     }
     p{font-size: .9rem;}
+    footer{
+        padding:.5rem 0;
+    }
     footer .links li{
-        padding:.2rem .9rem;
-        font-size: 1.1rem;
+        padding:.2rem .2rem;
     } 
+    footer .links li a {
+        font-size: 1rem;
+    }
+    footer img{
+        width:150px;
+    }
     .first-section .container{
         height: auto;
     }
@@ -519,9 +527,23 @@ footer .links li{
 .first-section-shop .section-tow{
     height: 20rem;
 }
+.about p {
+    padding: 1rem 7%;
+}
+.social_list li {
+    width: 3rem;
+    height: 3rem;
+}
 }
 @media (max-width: 575px)
 {
+    footer .links li a {
+        font-size: .8rem;
+    }
+    footer img{
+        width:120px;
+        height: 120px;
+    }
     .first-section-shop .section-one .small-img {
         width: 50%;
         left: 2%;
@@ -573,6 +595,16 @@ footer .links li{
     }
     .first-section .slider-info {
         margin-left: 12rem;
+    }
+    footer .links li{
+        padding: 0.1rem .2rem;
+    }
+    footer .links li a {
+        font-size: .8rem;
+    }
+    footer img{
+        width:80px;
+        height:80px;
     }
     
 }
