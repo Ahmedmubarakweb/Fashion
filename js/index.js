@@ -10,5 +10,15 @@ $('.cards').slick({
 });
 
 $('.carousel').carousel({
-  interval: 6000
+  interval: 5000
 })
+
+$('footer img').hover(
+  function() {
+    $(this).attr("src","images/logo3.png");
+  },
+  function() {
+    $(this).attr("src","images/logo2.png");
+  }
+);
+
