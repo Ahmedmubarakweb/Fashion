@@ -288,10 +288,10 @@ padding:1rem 1rem;
 }
 .form-section button,.form-section button:visited{
     background-color: #6b2425;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color:#fff;
     border: none;
-    padding:.2rem 4.5rem;
+    padding:.2rem 3.5rem;
     text-transform: uppercase;
     border-radius:2.2rem;
     margin-top: 1rem;
