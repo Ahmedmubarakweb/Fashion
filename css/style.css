@@ -6,16 +6,20 @@ copyright © 2020 Cheongsam
     color: #ffc5c9;
 }
 */
-
+/*FONT FAMILSY*/
 @font-face {
 	font-family: 'Bodoni';
 	src: url('../css/fonts/bodoni-mt.ttf'); 
+}
+h1,h2,h3{
+    font-family: 'bodoni-mt';
 }
 .text-gold{
     color:#d5af34;
 }
 body{
     background-color:#ffff;
+    font-family: 'century gothic';
 }
 p{
 text-align: justify;
@@ -40,7 +44,6 @@ header{
     font-size: 1.6rem;
     text-transform: capitalize;
     font-family: 'bodoni-mt';
-
 }
 .navbar-nav .nav-link:hover {
     color: #d5af34 !important;
@@ -220,7 +223,7 @@ footer .links li a{
     font-weight: 700;
     text-transform: capitalize;
     font-size: 1.6rem;
-	font-family: 'bodoni-mt';
+    font-family: 'bodoni-mt';
 }
 footer .links li a:hover{
     color:#d5af34;
