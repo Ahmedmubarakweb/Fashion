@@ -6,10 +6,10 @@ $('.carousel').carousel({
 
 $('footer img').hover(
   function() {
-    $(this).attr("src","images/logo3.png");
+    $(this).attr("src","images/logo3.PNG");
   },
   function() {
-    $(this).attr("src","images/logo2.png");
+    $(this).attr("src","images/logo2.PNG");
   }
 );
 
