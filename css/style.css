@@ -111,13 +111,20 @@ header{
 }
 
 .first-section .col-md-5{
-    position: relative;
-    height: 35rem !important;
+    position: absolute;
+    width: 100%;
+    height: 100%;
     z-index: 999;
+    top:0;
+    left:0;
+}
+.first-section .col-md-7{
+    margin-left: 27rem;
 }
 .first-section .col-md-5 img{
     width:78%;
 }
+
 .carousel-indicators li{
     width: 20px;
     height: 20px;
@@ -127,9 +134,14 @@ header{
     background-color: #6b2425;
 }
 
+
+.cards .card img{
+    width:100%;
+    height: 15rem;
+}
 /*full imge section*/
 .full-img{
-height:30rem;
+height:35rem;
 background-image:url(../images/10081.jpg);
 background-position: 70%;
 background-size: cover;
@@ -139,7 +151,7 @@ background-size: cover;
     height: 100%;
 }
 .full-img p{
-    padding: 12rem 1rem 0rem;
+    padding: 18rem 1rem 0rem;
     font-size: 1.4rem;
 }
 
@@ -412,7 +424,16 @@ footer .links li{
     padding:.3rem 1rem;
     font-size: 1.2rem;
 } 
-
+.first-section .col-md-5 img {
+    width: 100%;
+}
+.full-img {
+    height: 24rem;
+}
+.full-img p {
+    padding: 3rem 0rem 0rem;
+    font-size: 1.4rem;
+}
 }
 @media (max-width: 767px)
 {
@@ -446,9 +467,12 @@ footer .links li{
     .info p{
         font-size: 1rem;
     }
-    .slider{
-     left:20%;
-     top:0;
+    .first-section .col-md-5 img{
+        width: 50%;
+    }
+    .first-section .info p {
+        padding: 1rem 1rem;
+        font-size: 1rem;
     }
     .first-section-shop .section-one .small-img {
         top:60px;
