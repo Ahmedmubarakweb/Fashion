@@ -11,7 +11,7 @@ copyright © 2020 Cheongsam
 	font-family: 'Bodoni';
 	src: url('../css/fonts/bodoni-mt.ttf'); 
 }
-h1,h2,h3, a{
+h1,h2,h3 ,a{
     font-family: 'bodoni-mt';
 }
 .text-gold{
@@ -23,6 +23,8 @@ body{
 }
 p{
 text-align: justify;
+font-family: 'century gothic';
+
 font-size: 1.5rem;
 }
 
@@ -146,13 +148,13 @@ header{
 
 /*full imge section*/
 .full-img{
-height:35rem;
+height:auto;
 background-image:url(../images/10081.jpg);
 background-position: 70%;
 background-size: cover;
 }
 .full-img-p{
-    padding: 17rem 1rem 0rem;
+    padding: 3rem 1rem 3rem;
     font-size: 1.4rem;
 }
 
@@ -447,9 +449,7 @@ footer .links li{
 .first-section .col-md-5 img {
     width: 100%;
 }
-.full-img {
-    height: 24rem;
-}
+
 .full-img-p {
     padding: 5rem 1rem 0rem;
     font-size: 1.2rem;
@@ -473,9 +473,7 @@ footer .links li{
     .logo{
         top:-1.9rem;
     }
-    .full-img{
-        height:17rem;
-    }
+
     .full-img p{
         padding:8rem 2rem .6rem;
     }
@@ -655,15 +653,4 @@ footer .links li{
         font-size: .6rem;
     }    
     
-}
-@media (max-width: 320px){
-    .slider{
-        left:2rem;
-        top:10rem;
-        height: 5rem;
-        width:80%;
-    }
-    first-section .container{
-        height: 35rem;
-    }
 }
