@@ -6,6 +6,11 @@ copyright © 2020 Cheongsam
     color: #ffc5c9;
 }
 */
+
+@font-face {
+	font-family: 'Bodoni';
+	src: url('../css/fonts/bodoni-mt.ttf'); 
+}
 .text-gold{
     color:#d5af34;
 }
@@ -34,6 +39,7 @@ header{
     font-weight: 700;
     font-size: 1.6rem;
     text-transform: capitalize;
+    font-family: 'bodoni-mt';
 
 }
 .navbar-nav .nav-link:hover {
