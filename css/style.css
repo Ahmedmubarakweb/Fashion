@@ -24,7 +24,7 @@ header{
     background-position: center;
 }
 .navbar{
-    padding: 2.1rem 15%;
+    padding: 2.1rem 7%;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 3.5rem;
@@ -72,7 +72,7 @@ header{
 
 /*first section*/
 .bread_crumbs{
-    padding: 3rem 0;
+    padding: 2rem 0;
 }
 .bread_crumbs_list{
     list-style:none;
@@ -221,7 +221,7 @@ footer .links li a:hover{
 
 /*start fashion page*/
 .Fashion-video{
-    height:50rem;
+    height:auto;
 }
 .Fashion-video .video-info p{
     padding: 1rem 4rem;
@@ -233,12 +233,13 @@ footer .links li a:hover{
 }
 .fashion-section .info{
     background-color:#b93e40;
-    padding:2rem 1rem;
-    margin-top:5rem;
+    padding:5rem 1rem;
+    margin-top:10rem;
     margin-left: -2rem;
 }
 .fashion-section .info p{
-margin:3rem 0;
+padding-bottom: 1rem;
+font-size:1.2rem;
 }
 /* End fashion page*/
 /*start history page*/
@@ -271,8 +272,8 @@ padding:1rem 1rem;
 
 /*Start contact  page*/
 .form-section{
-    margin: 1rem 0;
-    padding:3rem 0;
+    margin: 0 0 3rem;
+    padding:1rem 0;
 }
 .form-section h2{
     margin: 3rem 0;
@@ -292,7 +293,7 @@ padding:1rem 1rem;
     border: none;
     padding:.2rem 4.5rem;
     text-transform: uppercase;
-    border-radius: 3rem;
+    border-radius:2.2rem;
     margin-top: 1rem;
     transition: all .4s;
 }
@@ -369,7 +370,8 @@ padding:3rem 0;
     width: 100%;
 }
 .first-section-shop .section-tow{
-    height: 40rem;
+    height: auto;
+    padding-bottom: 2rem;
     background-image: url(../images/441.jpg);
     background-position: top;
     background-size:cover;
@@ -381,7 +383,21 @@ padding:3rem 0;
 
 @media (max-width: 992px)
 {
-    
+    .navbar-expand-lg .navbar-nav .nav-link{
+        font-size: 1.3rem;
+    }
+    .navbar {
+        padding: 1.7rem 1%;
+    }
+    .logo_box {
+        top: -1.4rem;
+    }
+    .logo{
+        width:85%;
+    }
+    iframe{
+        height: 25rem;
+    }
     .bread_crumbs_list li{
         display: inline;
         font-size: 1rem;
@@ -402,9 +418,6 @@ padding:3rem 0;
     .first-section-shop .section-one .larg-img {
         height: 30rem;
     }
-    .navbar{
-        padding:2rem 1rem;
-    }
     .about p{
         width:100%;
     }
@@ -414,9 +427,6 @@ padding:3rem 0;
     .logo img{
         width: 120px;
         height: 120px;
-    }
-    .nav-link{
-        font-size: 1.3rem;
     }
 
 p{font-size: 1rem;}
@@ -437,11 +447,21 @@ footer .links li{
 }
 @media (max-width: 767px)
 {
+    iframe{
+        height: 25rem;
+    }
+    .form-section h2 {
+        margin: 0rem 0;
+        font-size: 2rem;
+    }
+    .form-section p {
+        margin: 1rem;
+    }
+    .form-section button, .form-section button:visited {
+        font-size: 2rem;
+    }
     .logo{
         top:-1.9rem;
-    }
-    .nav-link{
-        font-size: 1.3rem;
     }
     .full-img{
         height:17rem;
@@ -524,9 +544,6 @@ footer .links li{
     }
     
 
-.first-section-shop .section-tow{
-    height: 20rem;
-}
 .about p {
     padding: 1rem 7%;
 }
@@ -534,9 +551,19 @@ footer .links li{
     width: 3rem;
     height: 3rem;
 }
+.Fashion-video .video-info p {
+    padding: 1rem 1rem;
+}
 }
 @media (max-width: 575px)
 {
+    iframe{
+        height: 15rem;
+    }
+    .form-section button, .form-section button:visited {
+        font-size: 1.5rem;
+        padding: 0.2rem 2.5rem;
+    }
     footer .links li a {
         font-size: .8rem;
     }
@@ -547,21 +574,20 @@ footer .links li{
     .first-section-shop .section-one .small-img {
         width: 50%;
         left: 2%;
+        top:1rem;
     }
     .first-section-shop .section-one .larg-img {
         height: 19rem;
-        padding: 4rem 0;
+        padding: 2rem 0;
         padding-left: 50%;
     }
-    .first-section-shop .section-tow {
-        height: 25rem;
+    .pills .pills_list li:first-child{
+        padding: .7rem;
     }
     .pills .pills_list li {
-        padding: 0.9rem 1%;
+        padding: 0.7rem 2%;
     }
-    .nav-link{
-        font-size: 1.2rem;
-    }
+
     .info p{
         font-size:1rem;
     }
@@ -606,6 +632,18 @@ footer .links li{
         width:80px;
         height:80px;
     }
+    .pills .pills_list li:first-child{
+        padding: .7rem;
+    }
+    .pills .pills_list li {
+        padding: 0.7rem 1.5%;
+    }
+    .pills .pills_list li a, .pills .pills_list li a:visited {
+        font-size: 1rem;
+    }
+    .pills .pills_list li a, .pills .pills_list li a:visited {
+        font-size: .6rem;
+    }    
     
 }
 @media (max-width: 320px){
